@@ -18,11 +18,11 @@
 		
 			<atom:link href="http://localhost:1313/michygit/github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Post260601</title>
-				<link>http://localhost:1313/michygit/github.io/posts/post260601/</link>
+				<title>ポスト260601</title>
+				<link>http://localhost:1313/michygit/github.io/posts/260601/post260601/</link>
 				<pubDate>Mon, 01 Jun 2026 20:10:15 +0900</pubDate><author>michy@gray.plala.or.jp (Michinori Ichikawa)</author>
-				<guid>http://localhost:1313/michygit/github.io/posts/post260601/</guid>
-				<description>&lt;h1 id=&#34;電気信号とai&#34;&gt;電気信号とAI&lt;/h1&gt;&#xA;&lt;p&gt;AIはOpenAIから始まり、昨今のClaude AIと目覚ましい進化は眼を見張るものがある。&lt;/p&gt;&#xA;&lt;p&gt;併せて製造現場の設備にも導入が積極的に行われている。&lt;/p&gt;</description>
+				<guid>http://localhost:1313/michygit/github.io/posts/260601/post260601/</guid>
+				<description>&lt;h1 id=&#34;cu-netと電気信号収集&#34;&gt;CU-NETと電気信号収集&lt;/h1&gt;&#xA;&lt;p&gt;ステップテクニカ殿にはHLSからCU-NETと長いお付き合いで、製造設備ラインは有線通信が一番という信念を培った歴史があります。&lt;/p&gt;&#xA;&lt;p&gt;昨今のWIFIやBLEも便利ですが、やはり、信頼性を主とする製造ラインには使っていけないのが無線と思っています。&lt;/p&gt;&#xA;&lt;p&gt;CU-NETは、512バイトの共有メモリを介して最大63個のノードとノードCPUを通してスイッチ入出力と256バイトのメールを扱うるのが最強です。&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
