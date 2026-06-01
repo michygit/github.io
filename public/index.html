@@ -230,6 +230,45 @@
           
           
             <article class="post-preview">
+    <a href="http://localhost:1313/michygit/github.io/posts/260602/post260602/">
+        <h2 class="post-title">ポスト260602</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2026-06-02
+  
+  
+  
+  &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Michinori Ichikawa
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <h1 id="mioセンター">MIOセンター</h1>
+<p>MIOは、本システムの接頭語に値するもので、MIOシステムと称します。<br>
+ローカルセンターCPUは、CU-NETユニバース(64ステーション単位)の上位接続ゲートウェイの立場になります。<br>
+MIO-CENTERの内部構成は以下の通りです。<br>
+<img src="img/260602/miocenter.png" alt="センター機能"></p>
+
+        
+    </div>
+
+    
+
+</article>
+
+          
+            <article class="post-preview">
     <a href="http://localhost:1313/michygit/github.io/posts/260601/post260601/">
         <h2 class="post-title">ポスト260601</h2>
         
@@ -254,10 +293,22 @@
     </p>
     <div class="post-entry">
         
-        <h1 id="cu-netと電気信号収集">CU-NETと電気信号収集</h1>
-<p>ステップテクニカ殿にはHLSからCU-NETと長いお付き合いで、製造設備ラインは有線通信が一番という信念を培った歴史があります。</p>
-<p>昨今のWIFIやBLEも便利ですが、やはり、信頼性を主とする製造ラインには使っていけないのが無線と思っています。</p>
-<p>CU-NETは、512バイトの共有メモリを介して最大63個のノードとノードCPUを通してスイッチ入出力と256バイトのメールを扱うるのが最強です。</p>
+        <h1 id="通信と生産設備">通信と生産設備</h1>
+<p>思い起こせば、通信規格に触れたのはいつの頃だったか。<br>
+最初に取り組んだのが病院のガス監視盤だったかとおぼろげに思い出します。<br>
+全銀プロトコルを知ったのもその頃で、NRZもNZも知らないむちゃぶりでした。<br>
+その後、生産設備というジャンルでMKYに代表される省配線チップを使い、今もCU-NETを使い込んでいるという状況です。<br>
+かつて、RS232CやRS485で苦労したのが良き思い出となっています。<br>
+特に、双方向通信衝突のリアルタイム対応は未だに大事なノーハーです。<br>
+LANのような高度な処理ではありませんが、多様な現場レベルではそれ以上に大事なテクニックです。<br>
+通信と生産設備との関係が何故大事になってきているかと言えば、AIの時代に入りつつあるからです。<br>
+AIは、末端のデータアクイジションがあってこその学習です。<br>
+この末端のデータを集めるセンターとAIにデータを上げるローカルCPUの存在も重要なポイントです。<br>
+現在、ローカルセンターCPUを通して端末ノードからデジタル入出力及びアナログデータの吸い上げまでを行う汎用システムを開発中です。<br>
+中心的存在は、ステップテクニカ製<strong>CU-NET</strong>チップ群です。<br>
+通信の命は信頼性です。<br>
+これに最大の貢献をしてくれるのがCU-NETです。<br>
+今後、逐次、ご紹介していきたいと思います。</p>
 
         
     </div>
@@ -279,7 +330,7 @@
       <span class="toc-title">Posts</span>
       <button class="toc-close" id="toc-close" aria-label="Close table of contents">&times;</button>
     </div>
-    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/michygit/github.io/posts/260601/post260601/">ポスト260601</a></li></ul></nav>
+    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/michygit/github.io/posts/260602/post260602/">ポスト260602</a></li><li><a href="http://localhost:1313/michygit/github.io/posts/260601/post260601/">ポスト260601</a></li></ul></nav>
   </div>
   <div class="toc-backdrop" id="toc-backdrop"></div>
 </div>

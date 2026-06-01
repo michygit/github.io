@@ -14,15 +14,22 @@
 		
 		
 		
-			<lastBuildDate>Mon, 01 Jun 2026 20:10:15 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 02 Jun 2026 08:00:05 +0900</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/michygit/github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ポスト260602</title>
+				<link>http://localhost:1313/michygit/github.io/posts/260602/post260602/</link>
+				<pubDate>Tue, 02 Jun 2026 08:00:05 +0900</pubDate><author>michy@gray.plala.or.jp (Michinori Ichikawa)</author>
+				<guid>http://localhost:1313/michygit/github.io/posts/260602/post260602/</guid>
+				<description>&lt;h1 id=&#34;mioセンター&#34;&gt;MIOセンター&lt;/h1&gt;&#xA;&lt;p&gt;MIOは、本システムの接頭語に値するもので、MIOシステムと称します。&lt;br&gt;&#xA;ローカルセンターCPUは、CU-NETユニバース(64ステーション単位)の上位接続ゲートウェイの立場になります。&lt;br&gt;&#xA;MIO-CENTERの内部構成は以下の通りです。&lt;br&gt;&#xA;&lt;img src=&#34;img/260602/miocenter.png&#34; alt=&#34;センター機能&#34;&gt;&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>ポスト260601</title>
 				<link>http://localhost:1313/michygit/github.io/posts/260601/post260601/</link>
 				<pubDate>Mon, 01 Jun 2026 20:10:15 +0900</pubDate><author>michy@gray.plala.or.jp (Michinori Ichikawa)</author>
 				<guid>http://localhost:1313/michygit/github.io/posts/260601/post260601/</guid>
-				<description>&lt;h1 id=&#34;cu-netと電気信号収集&#34;&gt;CU-NETと電気信号収集&lt;/h1&gt;&#xA;&lt;p&gt;ステップテクニカ殿にはHLSからCU-NETと長いお付き合いで、製造設備ラインは有線通信が一番という信念を培った歴史があります。&lt;/p&gt;&#xA;&lt;p&gt;昨今のWIFIやBLEも便利ですが、やはり、信頼性を主とする製造ラインには使っていけないのが無線と思っています。&lt;/p&gt;&#xA;&lt;p&gt;CU-NETは、512バイトの共有メモリを介して最大63個のノードとノードCPUを通してスイッチ入出力と256バイトのメールを扱うるのが最強です。&lt;/p&gt;</description>
+				<description>&lt;h1 id=&#34;通信と生産設備&#34;&gt;通信と生産設備&lt;/h1&gt;&#xA;&lt;p&gt;思い起こせば、通信規格に触れたのはいつの頃だったか。&lt;br&gt;&#xA;最初に取り組んだのが病院のガス監視盤だったかとおぼろげに思い出します。&lt;br&gt;&#xA;全銀プロトコルを知ったのもその頃で、NRZもNZも知らないむちゃぶりでした。&lt;br&gt;&#xA;その後、生産設備というジャンルでMKYに代表される省配線チップを使い、今もCU-NETを使い込んでいるという状況です。&lt;br&gt;&#xA;かつて、RS232CやRS485で苦労したのが良き思い出となっています。&lt;br&gt;&#xA;特に、双方向通信衝突のリアルタイム対応は未だに大事なノーハーです。&lt;br&gt;&#xA;LANのような高度な処理ではありませんが、多様な現場レベルではそれ以上に大事なテクニックです。&lt;br&gt;&#xA;通信と生産設備との関係が何故大事になってきているかと言えば、AIの時代に入りつつあるからです。&lt;br&gt;&#xA;AIは、末端のデータアクイジションがあってこその学習です。&lt;br&gt;&#xA;この末端のデータを集めるセンターとAIにデータを上げるローカルCPUの存在も重要なポイントです。&lt;br&gt;&#xA;現在、ローカルセンターCPUを通して端末ノードからデジタル入出力及びアナログデータの吸い上げまでを行う汎用システムを開発中です。&lt;br&gt;&#xA;中心的存在は、ステップテクニカ製&lt;strong&gt;CU-NET&lt;/strong&gt;チップ群です。&lt;br&gt;&#xA;通信の命は信頼性です。&lt;br&gt;&#xA;これに最大の貢献をしてくれるのがCU-NETです。&lt;br&gt;&#xA;今後、逐次、ご紹介していきたいと思います。&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
