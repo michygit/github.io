@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>みっちゃんサイト</title>
+		<link>http://localhost:1313/michygit/github.io/</link>
+		<description>Recent content on みっちゃんサイト</description>
+		<generator>Hugo</generator>
+		<language>ja-ja</language>
+		
+			<managingEditor>michy@gray.plala.or.jp (Michinori Ichikawa)</managingEditor>
+		
+		
+			<webMaster>michy@gray.plala.or.jp (Michinori Ichikawa)</webMaster>
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 20:10:15 +0900</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/michygit/github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Post260601</title>
+				<link>http://localhost:1313/michygit/github.io/posts/post260601/</link>
+				<pubDate>Mon, 01 Jun 2026 20:10:15 +0900</pubDate><author>michy@gray.plala.or.jp (Michinori Ichikawa)</author>
+				<guid>http://localhost:1313/michygit/github.io/posts/post260601/</guid>
+				<description>&lt;h1 id=&#34;電気信号とai&#34;&gt;電気信号とAI&lt;/h1&gt;&#xA;&lt;p&gt;AIはOpenAIから始まり、昨今のClaude AIと目覚ましい進化は眼を見張るものがある。&lt;/p&gt;&#xA;&lt;p&gt;併せて製造現場の設備にも導入が積極的に行われている。&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
