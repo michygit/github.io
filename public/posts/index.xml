@@ -22,7 +22,7 @@
 				<link>http://localhost:1313/michygit/github.io/posts/260602/post260602/</link>
 				<pubDate>Tue, 02 Jun 2026 08:00:05 +0900</pubDate><author>michy@gray.plala.or.jp (Michinori Ichikawa)</author>
 				<guid>http://localhost:1313/michygit/github.io/posts/260602/post260602/</guid>
-				<description>&lt;h1 id=&#34;mioセンター&#34;&gt;MIOセンター&lt;/h1&gt;&#xA;&lt;p&gt;MIOは、本システムの接頭語に値するもので、MIOシステムと称します。&lt;br&gt;&#xA;ローカルセンターCPUは、CU-NETユニバース(64ステーション単位)の上位接続ゲートウェイの立場になります。&lt;br&gt;&#xA;MIO-CENTERの内部構成は以下の通りです。&lt;br&gt;&#xA;&lt;img src=&#34;img/260602/miocenter.png&#34; alt=&#34;センター機能&#34;&gt;&lt;/p&gt;</description>
+				<description>&lt;h1 id=&#34;mioセンター&#34;&gt;MIOセンター&lt;/h1&gt;&#xA;&lt;p&gt;MIOは、本システムの接頭語に値するもので、MIOシステムと称します。&lt;br&gt;&#xA;ローカルセンターCPUは、CU-NETユニバース(64ステーション単位)の上位接続ゲートウェイの立場になります。&lt;br&gt;&#xA;MIO-CENTERの内部構成は以下の通りです。&lt;br&gt;&#xA;&lt;img src=&#34;img/260602/miocenter.png&#34; alt=&#34;センター機能&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;rustの導入&#34;&gt;Rustの導入&lt;/h1&gt;&#xA;&lt;p&gt;最近注目されているのがRustの話題です。&lt;br&gt;&#xA;LinuxやWindowsでも一部利用され始め、USA官公庁御用達になる気配があります。&lt;br&gt;&#xA;カーニハン・リッチーから学んだ者としては、なんとなく近寄りがたい感じがしますが、1999年頃からの変数イミュータブルや所有権等が盛り込まれた後発有利の言語で、今後、C++から変わる可能性があります。&lt;br&gt;&#xA;MIOシステムには、ESP32やSTM32が使用されていますが、中心開発言語はC++からRustに移行する予定です。&lt;/p&gt;&#xA;&lt;h1 id=&#34;mio-app&#34;&gt;MIO-APP&lt;/h1&gt;&#xA;&lt;p&gt;MIO-CENTERの上位にはアプリケーションが必要になります。&lt;br&gt;&#xA;MIO-APPは、CU-NETノード及びその下にぶら下るCANノードのマッピングとデータモニターが主業務になります。&lt;br&gt;&#xA;マッピングと入出力パターンチェックはエクセルファイルが中心的存在になります。&lt;br&gt;&#xA;現在はC# WPFで開発ですが、プラットフォーム依存性を無くする為、wxWidgetやFlutterを検討しています。&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>ポスト260601</title>
