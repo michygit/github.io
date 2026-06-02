@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/michygit/github.io/'
+baseURL = 'https://michygit.github.io/github.io/'
 locale = 'ja-ja'
 title = 'みっちゃんサイト'
 
@@ -24,7 +24,7 @@ title = 'みっちゃんサイト'
 
 [Params.author]
   name = "Michinori Ichikawa"
-#  website = "https://github.com/michygit/github.io"
+#  website = "https://michygit.github.io/github.io/"
   email = "michy@gray.plala.or.jp"
 #  github = "michygit"
 
