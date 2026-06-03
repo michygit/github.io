@@ -46,8 +46,9 @@ ICカードの入退出管理を、R&Dクリーンルーム毎に手作り別仕
 
 # MIO基板シリーズ
 
-MIOシステムのメンバーです。 
-
+MIOシステムのメンバーです。  
+アナログ入出力のCAN基板以外は32ビット入出力です。  
+今後も逐次増えていきます。  
 {{< gallery caption-effect="fade" hover-effect="grow" >}}  
 {{< beautifulfigure src="mio-center.jpg" caption="MIOセンター" width="75%" >}}  
 {{< beautifulfigure src="mio-sw.jpg" caption="MIOスイッチ入力" width="75%" >}}  
