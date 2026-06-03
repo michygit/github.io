@@ -4,12 +4,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/github.io/posts/</loc>
-    <lastmod>2026-06-02T08:00:05+09:00</lastmod>
+    <lastmod>2026-06-03T05:58:19+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/github.io/posts/260602/post260602/</loc>
-    <lastmod>2026-06-02T08:00:05+09:00</lastmod>
+    <loc>http://localhost:1313/github.io/posts/260603/post260603/</loc>
+    <lastmod>2026-06-03T05:58:19+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/github.io/</loc>
+    <lastmod>2026-06-03T05:58:19+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/github.io/posts/260602/post260602/</loc>
     <lastmod>2026-06-02T08:00:05+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/github.io/posts/260601/post260601/</loc>
