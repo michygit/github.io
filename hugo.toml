@@ -39,7 +39,6 @@ title = 'みっちゃんサイト'
 
 [markup.goldmark.renderHooks.image]
    enableDefault = true
-  
 [[module.mounts]]
    source = 'assets'
    target = 'assets'

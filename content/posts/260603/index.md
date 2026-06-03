@@ -58,16 +58,3 @@ ICカードの入退出管理を、R&Dクリーンルーム毎に手作り別仕
 既に3Dプリンターで磁気ドライブの構造も作っていますので、UVランプフラッシャーと磁気ジェネレーターでどんな反応をグルコースがしてくれるのか楽しみです。  
 昨今のFreeCADの進化は素晴らしい。  
 
-# MIO基板シリーズ
-
-MIOシステムのメンバーです。  
-アナログ入出力のCAN基板以外は32ビット入出力です。  
-今後も逐次増えていきます。  
-{{< gallery caption-effect="fade" hover-effect="grow" >}}  
-{{< beautifulfigure src="mio-center.jpg" caption="MIOセンター" width="25%" >}}  
-{{< beautifulfigure src="mio-sw.jpg" caption="MIOスイッチ入力" width="25%" >}}  
-{{< beautifulfigure src="mio-led.jpg" caption="MIOLED出力" width="25%"  >}}  
-{{< beautifulfigure src="mio-sol.jpg" caption="MIOソレノイド出力" width="25%" >}}  
-{{< beautifulfigure src="mio-color.jpg" caption="MIOカラー" width="25%"  >}}  
-{{< beautifulfigure src="mio-checker.jpg" caption="MIO接触抵抗" width="25%" >}}  
-{{< /gallery >}} 

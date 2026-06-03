@@ -230,6 +230,204 @@
           
           
             <article class="post-preview">
+    <a href="http://localhost:1313/github.io/posts/260604/">
+        <h2 class="post-title">ポスト260604</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on 2026-06-04
+  
+  
+  
+  &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Michinori Ichikawa
+  
+</span>
+
+    </p>
+    <div class="post-entry">
+        
+        <h1 id="mio基板仲間たち">MIO基板仲間たち</h1>
+<p>MIOシステムのメンバーです。<br>
+アナログ入出力のCAN基板以外は32ビット入出力です。<br>
+今後も逐次増やしていきます。<br>
+
+
+<div class="gallery caption-position-bottom caption-effect-fade hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	    
+
+<link rel="stylesheet" href="/github.io/css/hugo-easy-gallery.css" />
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-center.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-center.jpg" alt="MIOセンター"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-center.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIOセンター</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-sw.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-sw.jpg" alt="MIOスイッチ入力"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-sw.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIOスイッチ入力</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-led.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-led.jpg" alt="MIOLED出力"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-led.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIOLED出力</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-sol.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-sol.jpg" alt="MIOソレノイド出力"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-sol.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIOソレノイド出力</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-color.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-color.jpg" alt="MIOカラー"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-color.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIOカラー</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+
+<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
+  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('/github.io/posts/260604/mio-checker.jpg');">
+      <img itemprop="thumbnail" src="/github.io/posts/260604/mio-checker.jpg" alt="MIO接触抵抗"/>
+    </div>
+    <a href="/github.io/posts/260604/mio-checker.jpg" itemprop="contentUrl" target="_blank"></a>
+      <figcaption><p>MIO接触抵抗</p>
+      </figcaption>
+  </figure>
+</div>
+
+  
+
+</div>
+</p>
+<h1 id="mioセンター紹介">MIOセンター紹介</h1>
+<p>まずは回路図。
+<img src="/github.io/posts/260604/miocenter_circult.png" alt="MIOセンター回路">
+ESP32-S3ベースのMKY44SPIと接続するシンプルな回路です。<br>
+簡易なPoEとしていますが、500mA程度がMAXです。<br>
+ESP32なので、USBだけでなく、WIFIとBluetoothで上位マシンと接続できます。<br>
+ファームウェアの構成は今のところ以下のディレクトリとしています。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">├─App
+</span></span><span class="line"><span class="cl">├─Domain
+</span></span><span class="line"><span class="cl">│  ├─Helpers
+</span></span><span class="line"><span class="cl">│  │      jsonhelper.h
+</span></span><span class="line"><span class="cl">│  │      stringhelper.h
+</span></span><span class="line"><span class="cl">│  │      systemhelper.h
+</span></span><span class="line"><span class="cl">│  │
+</span></span><span class="line"><span class="cl">│  ├─Models
+</span></span><span class="line"><span class="cl">│  │      devtype.h
+</span></span><span class="line"><span class="cl">│  │      inmapinfo.h
+</span></span><span class="line"><span class="cl">│  │      mapattr.h
+</span></span><span class="line"><span class="cl">│  │      outmapinfo.h
+</span></span><span class="line"><span class="cl">│  │      palmode.h
+</span></span><span class="line"><span class="cl">│  │      wifiinfo.h
+</span></span><span class="line"><span class="cl">│  │
+</span></span><span class="line"><span class="cl">│  ├─Parsers
+</span></span><span class="line"><span class="cl">│  │      wifiparser.h
+</span></span><span class="line"><span class="cl">│  │
+</span></span><span class="line"><span class="cl">│  ├─Repositories
+</span></span><span class="line"><span class="cl">│  │      iblerepository.h
+</span></span><span class="line"><span class="cl">│  │      idmxrepository.h
+</span></span><span class="line"><span class="cl">│  │      ierrorservicerepository.h
+</span></span><span class="line"><span class="cl">│  │      ifilerepository.h
+</span></span><span class="line"><span class="cl">│  │      imailservicerepository.h
+</span></span><span class="line"><span class="cl">│  │      imapperrepository.h
+</span></span><span class="line"><span class="cl">│  │      imediaterrepository.h
+</span></span><span class="line"><span class="cl">│  │      imkyrepository.h
+</span></span><span class="line"><span class="cl">│  │      iparserepository.h
+</span></span><span class="line"><span class="cl">│  │      iserialrepository.h
+</span></span><span class="line"><span class="cl">│  │      iwificurepository.h
+</span></span><span class="line"><span class="cl">│  │      iwifirepository.h
+</span></span><span class="line"><span class="cl">│  │
+</span></span><span class="line"><span class="cl">│  ├─Services
+</span></span><span class="line"><span class="cl">│  │      errorservice.h
+</span></span><span class="line"><span class="cl">│  │      mailservice.h
+</span></span><span class="line"><span class="cl">│  │      mediaterService.h
+</span></span><span class="line"><span class="cl">│  │
+</span></span><span class="line"><span class="cl">│  └─Shared
+</span></span><span class="line"><span class="cl">│          common.h
+</span></span><span class="line"><span class="cl">│          constant.h
+</span></span><span class="line"><span class="cl">│          errorcode.h
+</span></span><span class="line"><span class="cl">│
+</span></span><span class="line"><span class="cl">└─Infrastructure
+</span></span><span class="line"><span class="cl">    │  factories.h
+</span></span><span class="line"><span class="cl">    │
+</span></span><span class="line"><span class="cl">    ├─Drivers
+</span></span><span class="line"><span class="cl">    │      bledriver.h
+</span></span><span class="line"><span class="cl">    │      filedriver.h
+</span></span><span class="line"><span class="cl">    │      mkydriver.h
+</span></span><span class="line"><span class="cl">    │      serialdriver.h
+</span></span><span class="line"><span class="cl">    │      socketdriver.h
+</span></span><span class="line"><span class="cl">    │      wificucenter.h
+</span></span><span class="line"><span class="cl">    │      wifimanage.h
+</span></span><span class="line"><span class="cl">    │
+</span></span><span class="line"><span class="cl">    ├─Fakes
+</span></span><span class="line"><span class="cl">    │      mkyfake.h
+</span></span><span class="line"><span class="cl">    │
+</span></span><span class="line"><span class="cl">    └─Shared
+</span></span><span class="line"><span class="cl">            config.h
+</span></span><span class="line"><span class="cl">            drivers.h
+</span></span><span class="line"><span class="cl">            timermanager.h
+</span></span></code></pre></div><p>苦労したのは、MKYとのSPIアクセスです。</p>
+        <a href="http://localhost:1313/github.io/posts/260604/" class="post-read-more">[Read More]</a>
+        
+    </div>
+
+    
+
+</article>
+
+          
+            <article class="post-preview">
     <a href="http://localhost:1313/github.io/posts/260603/">
         <h2 class="post-title">ポスト260603</h2>
         
@@ -296,66 +494,7 @@ ICカードの入退出管理を、R&amp;Dクリーンルーム毎に手作り�
 <img src="/github.io/posts/260603/xenonflasher.jpg" alt="キセノンフラッシャー回路図"><br>
 既に3Dプリンターで磁気ドライブの構造も作っていますので、UVランプフラッシャーと磁気ジェネレーターでどんな反応をグルコースがしてくれるのか楽しみです。<br>
 昨今のFreeCADの進化は素晴らしい。</p>
-<h1 id="mio基板シリーズ">MIO基板シリーズ</h1>
-<p>MIOシステムのメンバーです。<br>
-アナログ入出力のCAN基板以外は32ビット入出力です。<br>
-今後も逐次増えていきます。<br>
 
-
-<div class="gallery caption-position-bottom caption-effect-fade hover-effect-grow hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-	    
-
-<link rel="stylesheet" href="/github.io/css/hugo-easy-gallery.css" />
-<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/github.io/posts/260603/mio-center.jpg');">
-      <img itemprop="thumbnail" src="/github.io/posts/260603/mio-center.jpg" alt="MIOセンター"/>
-    </div>
-    <a href="/github.io/posts/260603/mio-center.jpg" itemprop="contentUrl" target="_blank"></a>
-      <figcaption><p>MIOセンター</p>
-      </figcaption>
-  </figure>
-</div>
-
-  
-
-
-<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/github.io/posts/260603/mio-sw.jpg');">
-      <img itemprop="thumbnail" src="/github.io/posts/260603/mio-sw.jpg" alt="MIOスイッチ入力"/>
-    </div>
-    <a href="/github.io/posts/260603/mio-sw.jpg" itemprop="contentUrl" target="_blank"></a>
-      <figcaption><p>MIOスイッチ入力</p>
-      </figcaption>
-  </figure>
-</div>
-
-  
-
-
-<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/github.io/posts/260603/mio-led.jpg');">
-      <img itemprop="thumbnail" src="/github.io/posts/260603/mio-led.jpg" alt="MIOLED出力"/>
-    </div>
-    <a href="/github.io/posts/260603/mio-led.jpg" itemprop="contentUrl" target="_blank"></a>
-      <figcaption><p>MIOLED出力</p>
-      </figcaption>
-  </figure>
-</div>
-
-  
-
-
-<div class="box fancy-figure caption-position-bottom" style="max-width:25%">
-  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/github.io/posts/260603/mio-sol.jpg');">
-      <img itemprop="thumbnail" src="/github.io/posts/260603/mio-sol.jpg" alt="MIOソレノイド出力"/>
-    </div>
-    <a href="/github.io/posts/260603/mio-sol.jpg" itemprop="contentUrl" target="_blank"></a>
-      <figcaption><p>MIOソレノイド出力</p>
-        <a href="http://localhost:1313/github.io/posts/260603/" class="post-read-more">[Read More]</a>
         
     </div>
 
@@ -502,7 +641,7 @@ AIは、末端のデータアクイジションがあってこその学習です
       <span class="toc-title">Posts</span>
       <button class="toc-close" id="toc-close" aria-label="Close table of contents">&times;</button>
     </div>
-    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/github.io/posts/260603/">ポスト260603</a></li><li><a href="http://localhost:1313/github.io/posts/260602/">ポスト260602</a></li><li><a href="http://localhost:1313/github.io/posts/260601/">ポスト260601</a></li></ul></nav>
+    <nav class="toc-body"><ul class="toc-post-list"><li><a href="http://localhost:1313/github.io/posts/260604/">ポスト260604</a></li><li><a href="http://localhost:1313/github.io/posts/260603/">ポスト260603</a></li><li><a href="http://localhost:1313/github.io/posts/260602/">ポスト260602</a></li><li><a href="http://localhost:1313/github.io/posts/260601/">ポスト260601</a></li></ul></nav>
   </div>
   <div class="toc-backdrop" id="toc-backdrop"></div>
 </div>
